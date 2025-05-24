@@ -1,13 +1,12 @@
 <template>
   <div class="app">
-
+    <Navbar />
+    <router-view />
   </div>
 </template>
 
-<script>
-
+<script setup>
+import Navbar from "./components/Navbar.vue";
 </script>
 
-<style>
-
-</style>
+<style scoped></style>
